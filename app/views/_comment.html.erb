@@ -1,0 +1,11 @@
+
+
+
+
+<div class= 'span8 well'>
+	<em> "<%= comment.comment %>" </em>
+
+		on <%= link_to comment.post.title, post_path(comment.post)%>
+	
+	<span class = 'quiet'> posted by </span> <%= link_to comment.creator.username, user_path(comment.creator) %> 
+</div>

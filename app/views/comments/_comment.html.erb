@@ -1,0 +1,5 @@
+<div class= 'span8 well'>
+	<em> "<%= comment.comment %>" </em>
+	on <%= link_to comment.post.title, post_path(comment.post)%>
+	<span class = 'quiet'> posted by </span> <%= comment.creator.username %> 
+</div>
